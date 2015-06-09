@@ -94,35 +94,35 @@ int catodo(int cmd)                        //conversion int a 7seg
 
    switch(cmd)
    {
-      case 0:dato=63;//243
+      case 0:dato=243;//243
             break;
-      case 1:dato=6;//17
+      case 1:dato=17;//17
             break;
-      case 2:dato=91;//107
+      case 2:dato=107;//107
             break;
-      case 3:dato=79;//59
+      case 3:dato=59;//59
             break;
-      case 4:dato=102;//153
+      case 4:dato=153;//153
             break;
-      case 5:dato=109;//186
+      case 5:dato=186;//186
             break;
-      case 6:dato=125;//250
+      case 6:dato=250;//250
             break;
-      case 7:dato=7;//19
+      case 7:dato=119;//19
             break;
-      case 8:dato=127;//251
+      case 8:dato=251;//251
             break;
-      case 9:dato=103;//155
+      case 9:dato=155;//155
             break;
-      case 72:dato=118;//217
+      case 72:dato=217;//217
             break;
-      case 76:dato=56;//224
+      case 76:dato=224;//224
             break;
-      case 'A':dato=119;//219
+      case 'A':dato=219;//219
             break;
-      case 'C':dato=57;//226
+      case 'C':dato=226;//226
             break;
-      case 'F':dato=113;//202
+      case 'F':dato=202;//202
       default:dato=0;
    }
    return dato;
